@@ -43,7 +43,7 @@ public class Main {
             }
 
             try {
-                FileOutputStream fis = new FileOutputStream("./src/"+size+"result"+thread+".csv");
+                FileOutputStream fis = new FileOutputStream("./src/Assignment4Files/"+size+"result"+thread+".csv");
                 OutputStreamWriter isr = new OutputStreamWriter(fis);
                 BufferedWriter bw = new BufferedWriter(isr);
                 int j = 0;
